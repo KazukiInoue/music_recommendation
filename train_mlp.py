@@ -1,7 +1,7 @@
+import csv
 import numpy as np
 import numpy.matlib
 import os
-import time
 
 from sklearn.neural_network import MLPRegressor
 from sklearn.externals import joblib
@@ -13,13 +13,14 @@ def load_file(max_data_num, from_dir):
 
     for iteration, file in enumerate(os.listdir(from_dir)):
         data = np.load(from_dir + file)
-        if iteration < max_data_num:
-            if iteration == 0:
-                out_data = data
+        if np.ndim(data) == 2 and data.shape[0] > 10:
+            if iteration < max_data_num:
+                if iteration == 0:
+                    out_data = data
+                else:
+                    out_data = np.concatenate([out_data, data], axis=0)
             else:
-                out_data = np.concatenate([out_data, data], axis=0)
-        else:
-            break
+                break
 
     return out_data
 
@@ -48,7 +49,7 @@ def record_music_begin_end(max_data_num, from_dir):
 # 配列の標準化と正規化を行う
 def standardize_normalize_array(in_array, feature_name):
 
-    mean_std_max_min = np.load('./output/' + feature_name + '_mean_std_max_min.npy')
+    mean_std_max_min = np.load('./output/min_max_mean_std/shot_' + feature_name + '_mean_std_max_min.npy')
 
     if len(in_array.shape) == 2:
 
@@ -90,21 +91,43 @@ def distribute_train_or_test(position, x, y):
 
 def main():
 
-    # 使用する動画の特徴量の指定
-    video_feat_type = '4608hsv'
+    # 使用する特徴量の指定
+    video_feat_type = '80hsv'
+    aco_feat_type = '46aco'
 
     # 交差検証法でデータをいくつに分割するかを決定
     n_splits = int(1 / 0.1)
 
+    params = [{'solver': 'lbfgs', 'learning_rate': 'constant'},
+              {'solver': 'lbfgs', 'learning_rate': 'invscaling'},
+              {'solver': 'lbfgs', 'learning_rate': 'adaptive'},
+              {'solver': 'sgd',   'learning_rate': 'constant'},
+              {'solver': 'sgd',   'learning_rate': 'invscaling'},
+              {'solver': 'sgd',   'learning_rate': 'adaptive'},
+              {'solver': 'adam',  'learning_rate': 'constant'},
+              {'solver': 'adam',  'learning_rate': 'invscaling'},
+              {'solver': 'adam',  'learning_rate': 'adaptive'},]
+
+    labels = ["lbfgs with constant learning-rate",
+              "lbfgs with inv-scaling learning-rate",
+              "lbfgs with adaptive learning-rate",
+              "sgd with constant learning-rate",
+              "sgd with inv-scaling learning-rate",
+              "sgd with adaptive learning-rate",
+              "adam with constant learning-rate",
+              "adam with inv-scaling learning-rate",
+              "adam with adaptive learning-rate",
+              ]
+
     is_test = False
 
     if is_test:
-        dir_x = './data/test/test_fc7_features/'
-        dir_y = './data/test/test_aco_features/'
+        dir_x = '../data/test/test_fc7_features/'
+        dir_y = '../data/test/test_aco_features/'
     else:
         # dir_x = './data/fc7_features/after'
-        dir_x = './data/' + video_feat_type + '_features/'
-        dir_y = './data/aco_features/'
+        dir_x = '../src_data/train_features/npy_shot_' + video_feat_type + '/'
+        dir_y = '../src_data/train_features/npy_shot_' + aco_feat_type + '/'
 
     # 取得する曲数を調整を取得
     music_num = len(os.listdir(dir_x))
@@ -115,24 +138,42 @@ def main():
     begin_end = record_music_begin_end(max_data_num=max_data_num, from_dir=dir_x)
 
     # 正規化
-    # video_norm = normalize_array(video_features, 'fc7')
-    # video_feat_norm = standardize_normalize_array(video_features, video_feat_type)
-    # aco_feat_norm = standardize_normalize_array(aco_features, 'aco')
 
-    video_feat_norm = video_features
-    aco_feat_norm = aco_features
+    video_feat_norm = standardize_normalize_array(video_features, video_feat_type)
+    aco_feat_norm = standardize_normalize_array(aco_features, aco_feat_type)
 
-    # フィッティング
-    print('start to fit')
-    mlp = MLPRegressor(solver='lbfgs', hidden_layer_sizes=(50,  30), activation='relu',
-                       max_iter=200, random_state=1)
-    begin = time.time()
-    mlp.fit(video_feat_norm, aco_feat_norm)
-    end = time.time()
-    # assert_greater(mlp.score(X, y), 0.9)
+    X = video_feat_norm
+    Y = aco_feat_norm
 
-    joblib.dump(mlp, './output/mlp_4608hsv_50_30.pkl')
-    print('time: ', end-begin, 'sec')
+    # for each dataset, plot learning for each learning strategy
+    mlps = []
+    max_iter = 1
+    score_loss_table = np.array([[""], ["Training set score"], ["Training set less"]])
+
+    for label, param in zip(labels, params):
+        print("training: %s" % label)
+        mlp = MLPRegressor(activation='relu', hidden_layer_sizes=(230, 120, 30), max_iter=max_iter, **param)
+        mlp.fit(X, Y)
+        mlps.append(mlp)
+        print("Training set score: %f" % mlp.score(X, Y))
+        print("Training set loss: %f" % mlp.loss_)
+
+        tmp_score_loss_table = np.array([[label], [str(mlp.score(X, Y))], [str(mlp.loss_)]])
+        score_loss_table = np.concatenate([score_loss_table, tmp_score_loss_table], axis=1)
+
+        joblib.dump(mlp, './output/output_model/mlp_maxiter=' + '_' + str(max_iter) + param['solver'] + '_' + param['learning_rate']
+                    + '_shot_' + video_feat_type + '_' + aco_feat_type + '_230_120_30.pkl')
+
+    table_name = './output/score_and_loss.csv'
+    with open(table_name, 'w') as f:
+        writer = csv.writer(f, lineterminator='\n')
+        writer.writerows(score_loss_table)
+
+    # for mlp, label, args in zip(mlps, labels, plot_args):
+    #     plt.plot(mlp.loss_curve_, label=label, **args)
+    #
+    # plt.legend()
+    # plt.show()
 
 
 if __name__ == '__main__':

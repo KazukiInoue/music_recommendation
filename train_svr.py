@@ -3,7 +3,6 @@ import numpy.matlib
 import os
 from sklearn.svm import SVR
 from sklearn.model_selection import KFold, GridSearchCV, train_test_split
-from sklearn.metrics import classification_report
 from sklearn.externals import joblib
 
 from math import sqrt

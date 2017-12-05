@@ -2,571 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="073f0a3f-5e29-46ed-8262-382ed085a79f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00001.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00002.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00003.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00004.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00005.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00006.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00007.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00008.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00009.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00010.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00011.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00012.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00013.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00014.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00015.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00016.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00017.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00018.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00019.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00020.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00021.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00022.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00023.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00024.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00025.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00026.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00027.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00028.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00029.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00030.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00031.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00032.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00033.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00034.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00035.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00036.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00037.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00038.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00039.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00040.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00041.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00042.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00043.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00044.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00045.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00046.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00047.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00048.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00049.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00050.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00051.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00052.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00053.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00054.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00055.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00056.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00057.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00058.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00059.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00060.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00061.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00062.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00063.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00064.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00065.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00066.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00067.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00068.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00069.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00070.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00071.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00072.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00073.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00074.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00075.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00076.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00077.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00078.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00079.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00080.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00081.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00082.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00083.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00084.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00085.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00086.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00087.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00088.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00089.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00090.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00091.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00092.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00093.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00094.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00095.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00096.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00097.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00098.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00099.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00100.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00101.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00102.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00103.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00104.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00105.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00106.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00107.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00108.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00109.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00110.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00111.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00112.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00113.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00114.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00115.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00116.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00117.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00118.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00119.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00120.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00121.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00122.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00123.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00124.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00125.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00126.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00127.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00128.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00129.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00130.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00131.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00132.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/20hsv_features/video00133.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00001.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00002.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00003.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00004.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00005.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00006.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00007.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00008.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00009.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00010.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00011.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00012.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00013.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00014.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00015.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00016.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00017.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00018.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00019.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00020.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00021.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00022.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00023.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00024.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00025.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00026.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00027.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00028.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00029.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00030.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00031.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00032.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00033.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00034.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00035.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00036.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00037.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00038.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00039.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00040.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00041.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00042.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00043.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00044.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00045.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00046.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00047.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00048.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00049.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00050.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00051.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00052.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00053.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00054.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00055.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00056.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00057.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00058.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00059.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00060.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00061.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00062.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00063.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00064.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00065.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00066.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00067.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00068.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00069.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00070.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00071.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00072.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00073.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00074.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00075.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00076.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00077.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00078.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00079.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00080.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00081.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00082.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00083.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00084.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00085.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00086.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00087.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00088.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00089.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00090.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00091.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00092.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00093.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00094.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00095.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00096.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00097.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00098.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00099.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00100.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00101.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00102.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00103.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00104.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00105.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00106.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00107.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00108.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00109.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00110.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00111.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00112.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00113.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00114.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00115.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00116.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00117.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00118.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00119.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00120.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00121.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00122.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00123.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00124.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00125.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00126.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00127.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00128.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00129.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00130.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00131.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00132.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/4608hsv_features/video00133.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00001.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00002.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00003.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00004.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00005.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00006.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00007.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00008.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00009.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00010.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00011.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00012.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00013.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00014.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00015.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00016.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00017.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00018.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00019.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00020.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00021.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00022.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00023.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00024.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00025.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00026.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00027.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00028.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00029.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00030.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00031.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00032.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00033.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00034.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00035.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00036.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00037.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00038.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00039.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00040.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00041.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00042.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00043.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00044.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00045.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00046.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00047.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00048.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00049.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00050.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00051.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00052.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00053.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00054.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00055.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00056.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00057.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00058.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00059.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00060.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00061.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00062.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00063.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00064.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00065.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00066.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00067.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00068.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00069.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00070.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00071.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00072.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00073.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00074.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00075.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00076.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00077.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00078.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00079.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00080.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00081.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00082.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00083.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00084.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00085.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00086.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00087.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00088.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00089.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00090.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00091.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00092.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00093.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00094.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00095.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00096.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00097.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00098.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00099.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00100.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00101.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00102.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00103.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00104.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00105.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00106.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00107.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00108.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00109.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00110.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00111.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00112.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00113.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00114.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00115.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00116.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00117.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00118.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00119.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00120.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00121.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00122.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00123.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00124.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00125.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00126.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00127.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00128.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00129.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00130.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00131.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00132.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/aco_features/video00133.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/20hsv_features/video00001.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/20hsv_features/video00002.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/20hsv_features/video00003.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/20hsv_features/video00004.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/20hsv_features/video00005.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/20hsv_features/video00006.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/20hsv_features/video00007.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/20hsv_features/video00008.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/20hsv_features/video00009.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/4608hsv_features/video00001.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/4608hsv_features/video00002.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/4608hsv_features/video00003.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/4608hsv_features/video00004.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/4608hsv_features/video00005.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/4608hsv_features/video00006.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/4608hsv_features/video00007.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/4608hsv_features/video00008.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/4608hsv_features/video00009.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00000.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00001.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00002.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00003.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00004.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00005.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00006.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00007.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00008.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00009.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00010.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00011.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00012.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00013.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00014.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00015.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00016.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00017.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00018.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00019.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00020.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00021.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00022.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00023.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00024.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00025.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00026.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00027.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00028.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00029.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00030.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00031.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00032.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00033.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00034.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00035.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00036.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00037.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00038.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00039.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00040.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00041.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00042.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00043.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00044.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00045.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00046.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00047.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00048.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00049.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00050.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00051.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00052.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00053.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00054.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00055.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00056.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00057.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00058.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00059.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00060.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00061.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00062.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00063.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00064.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00065.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00066.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00067.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00068.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00069.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00070.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00071.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00072.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00073.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00074.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00075.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00076.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00077.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00078.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00079.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00080.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00081.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00082.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00083.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00084.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00085.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00086.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00087.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00088.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00089.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00090.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00091.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00092.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00093.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00094.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00095.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00096.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/aco_features/test_music_00097.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/fc7_features/video1.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/fc7_features/video2.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/fc7_features/video3.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/fc7_features/video4.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/fc7_features/video5.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/fc7_features/video6.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/fc7_features/video7.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/fc7_features/video8.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/recommendation_test/fc7_features/video9.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/4608hsv_mean_std_max_min.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/aco_mean_std_max_min.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/hsv_mean_std_max_min.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/mlp_230_120_30.pkl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/mlp_4608hsv_230_120_30.pkl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/mlp_4608hsv_50_30.pkl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/mlp_50.pkl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/mlp_50_50.pkl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/20hsv/hsv_video00001.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/20hsv/hsv_video00002.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/20hsv/hsv_video00003.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/20hsv/hsv_video00004.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/20hsv/hsv_video00005.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/20hsv/hsv_video00006.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/20hsv/hsv_video00007.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/20hsv/hsv_video00008.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/20hsv/hsv_video00009.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/4608hsv/4608hsv_video00001.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/4608hsv/4608hsv_video00002.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/4608hsv/4608hsv_video00003.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/4608hsv/4608hsv_video00004.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/4608hsv/4608hsv_video00005.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/4608hsv/4608hsv_video00006.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/4608hsv/4608hsv_video00007.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/4608hsv/4608hsv_video00008.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/4608hsv/4608hsv_video00009.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/fc7/video1.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/fc7/video2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/fc7/video3.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/fc7/video4.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/fc7/video5.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/fc7/video6.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/fc7/video7.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/fc7/video8.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/recommendation_result/fc7/video9.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tuned_C_gamma.npy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/tuned_model.npy" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add_histogram_and_convert_frame2shot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/convert_frame2shot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/save_mean_std_max_min.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/show_estimated_color_features.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recommend_music.py" afterPath="$PROJECT_DIR$/recommend_music.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train_mlp.py" afterPath="$PROJECT_DIR$/train_mlp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train_svr.py" afterPath="$PROJECT_DIR$/train_svr.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils_inoue.py" afterPath="$PROJECT_DIR$/utils_inoue.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -578,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="train_mlp.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="train_mlp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/train_mlp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="163" column="68" lean-forward="false" selection-start-line="163" selection-start-column="68" selection-end-line="163" selection-end-column="68" />
+            <state relative-caret-position="448">
+              <caret line="157" column="27" lean-forward="false" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -590,23 +33,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train_svr.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_svr.py">
+      <file leaf-file-name="utils_inoue.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils_inoue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1024">
-              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-9">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils_inoue.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils_inoue.py">
+      <file leaf-file-name="convert_frame2shot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/convert_frame2shot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5072">
-              <caret line="326" column="16" lean-forward="false" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="16" />
+            <state relative-caret-position="2544">
+              <caret line="159" column="37" lean-forward="false" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="save_mean_std_max_min.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/save_mean_std_max_min.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="79" column="87" lean-forward="false" selection-start-line="79" selection-start-column="87" selection-end-line="79" selection-end-column="87" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_histogram_and_convert_frame2shot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/add_histogram_and_convert_frame2shot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -615,8 +84,8 @@
       <file leaf-file-name="recommend_music.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recommend_music.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+            <state relative-caret-position="137">
+              <caret line="196" column="52" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="225" selection-end-column="39" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -624,11 +93,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show_loss_graph.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show_estimated_color_features.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/show_estimated_color_features.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3024">
+              <caret line="225" column="39" lean-forward="false" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show_loss_graph.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/show_loss_graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+            <state relative-caret-position="1120">
+              <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
               <folding>
                 <element signature="e#112#143#0" expanded="true" />
               </folding>
@@ -647,12 +128,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>test_x</find>
-      <find>test_y</find>
-      <find>for_test</find>
-      <find>small</find>
-      <find>fc7_feature</find>
-      <find>input_file</find>
       <find>test_X</find>
       <find>aco_features</find>
       <find>video_features</find>
@@ -668,7 +143,6 @@
       <find>savetxt</find>
       <find>std</find>
       <find>transpose</find>
-      <find>\</find>
       <find>loss_curve</find>
       <find>fit</find>
       <find>txt</find>
@@ -677,6 +151,13 @@
       <find>conver</find>
       <find>ranking</find>
       <find>$PROJECT_DIR$/..</find>
+      <find>rename</find>
+      <find>prev_col_index</find>
+      <find>\</find>
+      <find>math</find>
+      <find>is_first_convert</find>
+      <find>to_dirs</find>
+      <find>..</find>
     </findStrings>
     <replaceStrings>
       <replace>x_test</replace>
@@ -696,9 +177,13 @@
       <replace>video_feat_norm</replace>
       <replace>・</replace>
       <replace>file_index</replace>
-      <replace>/</replace>
       <replace>music_name</replace>
       <replace>..</replace>
+      <replace>index</replace>
+      <replace>now_row_index</replace>
+      <replace>prev_row_index</replace>
+      <replace>/</replace>
+      <replace>$PROJECT_DIR$/..</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -707,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/train_svr.py" />
         <option value="$PROJECT_DIR$/example.py" />
         <option value="$PROJECT_DIR$/example_1d.py" />
         <option value="$PROJECT_DIR$/csv2npy.py" />
@@ -716,18 +200,24 @@
         <option value="$PROJECT_DIR$/output/test.py" />
         <option value="$PROJECT_DIR$/mlp.py" />
         <option value="$PROJECT_DIR$/train_vgg2acoustic.py" />
-        <option value="$PROJECT_DIR$/train_mlp.py" />
-        <option value="$PROJECT_DIR$/utils_inoue.py" />
-        <option value="$PROJECT_DIR$/recommend_music.py" />
         <option value="$PROJECT_DIR$/show_loss_graph.py" />
+        <option value="$PROJECT_DIR$/train_svr.py" />
+        <option value="C:/python_projects/shot_detection/shot_detection.py" />
+        <option value="$PROJECT_DIR$/recommend_music.py" />
+        <option value="$PROJECT_DIR$/add_histogram_and_convert_frame2shot.py" />
+        <option value="$PROJECT_DIR$/convert_frame2shot.py" />
+        <option value="$PROJECT_DIR$/utils_inoue.py" />
+        <option value="$PROJECT_DIR$/show_estimated_color_features.py" />
+        <option value="$PROJECT_DIR$/save_mean_std_max_min.py" />
+        <option value="$PROJECT_DIR$/train_mlp.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="459" />
-    <option name="y" value="434" />
-    <option name="width" value="708" />
-    <option name="height" value="1212" />
+    <option name="x" value="58" />
+    <option name="y" value="-8" />
+    <option name="width" value="1870" />
+    <option name="height" value="1216" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -745,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -757,12 +248,11 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../extract_acoustic_features" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../segment_music" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -776,8 +266,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.show_loss_graph">
-    <configuration name="mlp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.train_mlp">
+    <configuration name="add_histogram_and_convert_frame2shot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -789,12 +279,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="svr" />
-      <option name="SCRIPT_NAME" value="C:\python_projects\svr\train_mlp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add_histogram_and_convert_frame2shot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="recommend_music" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="convert_frame2shot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -806,12 +296,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="svr" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommend_music.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convert_frame2shot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="show_loss_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="save_mean_std_max_min" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -823,7 +313,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="svr" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/show_loss_graph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/save_mean_std_max_min.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -864,18 +354,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.utils_inoue" />
-      <item index="1" class="java.lang.String" itemvalue="Python.recommend_music" />
-      <item index="2" class="java.lang.String" itemvalue="Python.mlp" />
-      <item index="3" class="java.lang.String" itemvalue="Python.train_mlp" />
-      <item index="4" class="java.lang.String" itemvalue="Python.show_loss_graph" />
+      <item index="1" class="java.lang.String" itemvalue="Python.train_mlp" />
+      <item index="2" class="java.lang.String" itemvalue="Python.convert_frame2shot" />
+      <item index="3" class="java.lang.String" itemvalue="Python.add_histogram_and_convert_frame2shot" />
+      <item index="4" class="java.lang.String" itemvalue="Python.save_mean_std_max_min" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.show_loss_graph" />
-        <item index="1" class="java.lang.String" itemvalue="Python.train_mlp" />
-        <item index="2" class="java.lang.String" itemvalue="Python.utils_inoue" />
-        <item index="3" class="java.lang.String" itemvalue="Python.recommend_music" />
-        <item index="4" class="java.lang.String" itemvalue="Python.mlp" />
+        <item index="0" class="java.lang.String" itemvalue="Python.train_mlp" />
+        <item index="1" class="java.lang.String" itemvalue="Python.save_mean_std_max_min" />
+        <item index="2" class="java.lang.String" itemvalue="Python.convert_frame2shot" />
+        <item index="3" class="java.lang.String" itemvalue="Python.utils_inoue" />
+        <item index="4" class="java.lang.String" itemvalue="Python.add_histogram_and_convert_frame2shot" />
       </list>
     </recent_temporary>
   </component>
@@ -902,19 +392,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-8" width="1869" height="1216" extended-state="6" />
+    <frame x="58" y="-8" width="1870" height="1216" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22001106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1762431" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2537037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2212963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.087037034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27407408" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19907407" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26944444" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24907407" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26621622" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11387507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -923,73 +414,37 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27407408" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22094594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34166667" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1764706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26666668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11387507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="28" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example_4d.py" />
-    <entry file="file://$PROJECT_DIR$/example_1d.py" />
-    <entry file="file://$PROJECT_DIR$/train_mlp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="63" column="76" lean-forward="false" selection-start-line="63" selection-start-column="76" selection-end-line="63" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommend_music.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="85" column="40" lean-forward="false" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example_4d.py" />
-    <entry file="file://$PROJECT_DIR$/example_1d.py" />
-    <entry file="file://$PROJECT_DIR$/utils_inoue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2688">
-          <caret line="179" column="7" lean-forward="false" selection-start-line="179" selection-start-column="7" selection-end-line="180" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_mlp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="63" column="76" lean-forward="false" selection-start-line="63" selection-start-column="76" selection-end-line="63" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommend_music.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="85" column="40" lean-forward="false" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example_4d.py" />
-    <entry file="file://$PROJECT_DIR$/example_1d.py" />
     <entry file="file://$PROJECT_DIR$/utils_inoue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2944">
@@ -1145,19 +600,77 @@
     <entry file="file://$USER_HOME$/Downloads/librosa-beat-beat_track-1.py" />
     <entry file="file://C:/C++Projects/ResizeVideo/build/output_beat/video29/video29_1to100/29_60_659.png" />
     <entry file="file://$PROJECT_DIR$/example_1d.py" />
+    <entry file="file://$PROJECT_DIR$/example_4d.py" />
+    <entry file="file://$PROJECT_DIR$/output/test.py" />
+    <entry file="file://C:/python_projects/shot_detection/shot_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_svr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4035">
+          <caret line="4" column="73" lean-forward="false" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python_projects/tensorflow-vgg-master/test_vgg16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../extract_color_themes_python/main.py" />
+    <entry file="file://$PROJECT_DIR$/../old_extract_color_themes_python/main.py" />
+    <entry file="file://$PROJECT_DIR$/show_loss_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+          <folding>
+            <element signature="e#112#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../extract_acoustic_features_python/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/tensorflow-vgg-master/extract_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="2908" column="0" lean-forward="false" selection-start-line="2908" selection-start-column="0" selection-end-line="2908" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example_4d.py" />
-    <entry file="file://$PROJECT_DIR$/output/test.py" />
-    <entry file="file://$PROJECT_DIR$/recommend_music.py">
+    <entry file="file://$PROJECT_DIR$/convert_frame2shot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        <state relative-caret-position="2544">
+          <caret line="159" column="37" lean-forward="false" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -1166,41 +679,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils_inoue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5072">
-          <caret line="326" column="16" lean-forward="false" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="16" />
+        <state relative-caret-position="-9">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_svr.py">
+    <entry file="file://$PROJECT_DIR$/recommend_music.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1024">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="137">
+          <caret line="196" column="52" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="225" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show_estimated_color_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="225" column="39" lean-forward="false" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_histogram_and_convert_frame2shot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_mean_std_max_min.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="79" column="87" lean-forward="false" selection-start-line="79" selection-start-column="87" selection-end-line="79" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train_mlp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="163" column="68" lean-forward="false" selection-start-line="163" selection-start-column="68" selection-end-line="163" selection-end-column="68" />
+        <state relative-caret-position="448">
+          <caret line="157" column="27" lean-forward="false" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/show_loss_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-          <folding>
-            <element signature="e#112#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

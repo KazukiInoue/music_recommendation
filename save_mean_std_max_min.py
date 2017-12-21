@@ -75,10 +75,10 @@ def save_mean_std_max_min(feature_name, from_dirs, to_dir):
 
 if __name__ == "__main__":
 
-    save_mean_std_max_min(feature_name='828lab_themes',
-                          from_dirs=('../src_data/train_features/OMV200_npy_shot_828lab_themes/',
-                                     '../src_data/train_features/IMV133_npy_shot_828lab_themes/'),
-                          to_dir='./output/mean_std_max_min/')
+    save_mean_std_max_min(feature_name="768lab",
+                          from_dirs=("../src_data/train_features/OMV200_npy_shot_768lab/",
+                                     "../src_data/train_features/OMV62of65_npy_shot_768lab/"),
+                          to_dir="./output/mean_std_max_min/")
 
     # save_mean_std_max_min(feature_name='OMV200_46aco',
     #                       from_dirs=('../src_data/train_features/OMV200_npy_shot_46aco/'),

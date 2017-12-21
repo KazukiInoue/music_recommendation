@@ -70,7 +70,7 @@ def identify_data_order():
 # ディレクトリを作成
 def make_directory(to_dir):
 
-    for i in range(133):
+    for i in range(62):
 
         file_index = ""
         index_val = 1
@@ -86,19 +86,19 @@ def make_directory(to_dir):
         else:
             file_index = str(i + index_val)
 
-        path = to_dir + "IMV133_video" + file_index
+        path = to_dir + "cut_by_OMV62of65_video" + file_index
         os.mkdir(path)
 
 
 # ファイル名の変更
 def rename():
 
-    from_dir = "../src_data/train_features/csv_frame_20cepstrum/"
-    to_dir = "../src_data/train_features/IMV133_csv_frame_20cepstrum/"
+    from_dir = "../src_data/train_features/old_OMV62of65_npy_frame_40aco/"
+    to_dir = "../src_data/train_features/OMV62of65_npy_frame_40aco/"
 
     index_num = 1
-    head_name = "IMV133_"
-    extension = "csv"
+    head_name = "OMV62of65_"
+    extension = "npy"
 
     correspond_name = np.array([])
 
@@ -124,7 +124,6 @@ def rename():
             #     os.rename(from_dir + file, './data/recommendation_test/music/' + filename + '.mp3')
             # elif m4a.search(file):
             #     os.rename(from_dir + file, './data/recommendation_test/music/' + filename + '.m4a')
-
 
             # os.rename(from_dir + file, to_dir + filename + '.' + extension)
 
@@ -177,15 +176,15 @@ def rename2():
 
 if __name__ == '__main__':
 
-    # csv2npy(from_dir='../src_data/train_features/csv_frame_46aco_12chroma_20mfcc_14spectcontrast/',
-    #         to_dir='../src_data/train_features/npy_frame_46aco/', threshold=10)
+    # csv2npy(from_dir='../src_data/train_features/OMV62of65_csv_shot_768lab/',
+    #         to_dir='../src_data/train_features/OMV62of65_npy_shot_768lab/', threshold=10)
 
 
     # for_test_convert_frame2shot_features()
     # for_training_convert_frame2shot_features(threshold=10)
     # identify_data_order()
     # concatenate_multiple_features()
-    make_directory("C/MUSIC_RECOMMENDATION/src_data/shots_IMV133_threshold=130_themes=6/")
+    make_directory("../src_data/recommendation_test_features/for_test_OMV62of65_npy_shot_40aco/")
     # rename()
     # rename2()
     #

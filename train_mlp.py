@@ -29,7 +29,7 @@ def record_music_begin_end(max_data_num, from_dir):
     end = 0
 
     for iteration, file in enumerate(os.listdir(from_dir)):
-        data = np.load(from_dir + '/' + file)
+        data = np.load(from_dir + "/" + file)
         if iteration < max_data_num:
             if iteration == 0:
                 begin = 0
@@ -48,7 +48,7 @@ def record_music_begin_end(max_data_num, from_dir):
 # 配列の標準化と正規化を行う
 def standardize_normalize_array(in_array, feature_name):
 
-    mean_std_max_min = np.load('./output/mean_std_max_min/shot_' + feature_name + '_mean_std_max_min.npy')
+    mean_std_max_min = np.load("./output/mean_std_max_min/shot_" + feature_name + "_mean_std_max_min.npy")
 
     if len(in_array.shape) == 2:
 
@@ -101,24 +101,32 @@ def distribute_train_or_test(position, x, y):
 def main():
 
     # 使用する特徴量の指定
-    video_feat_types = [# '768bgr', '768hsv',
-                        # '768lab',
-                        "60color_themes_bgr",
-                        "828bgr_themes",
+    video_feat_types = ["768bgr",
+                        "768hsv",
+                        # "768lab",
+                        # "60color_themes_bgr",
+                        # "828bgr_themes",
                         # "828hsv_themes", "828lab_themes"
+                        "512bgr", "512hsv",
+                        # "512lab"
                         ]
-    aco_feat_types = ["40aco","46aco", "280aco", "322aco", "92aco", "80aco"
+    aco_feat_types = ["40aco",  # "46aco",
+                      "280aco",
+                      # "322aco", "92aco",
+                      "80aco"
                       ]
 
-    params = [{'solver': 'lbfgs', 'learning_rate': 'constant'},
-              # {'solver': 'lbfgs', 'learning_rate': 'invscaling'},
-              # {'solver': 'lbfgs', 'learning_rate': 'adaptive'},
-              # {'solver': 'sgd',   'learning_rate': 'constant'},
-              # {'solver': 'sgd',   'learning_rate': 'invscaling'},
-              # {'solver': 'sgd',   'learning_rate': 'adaptive'},
-              # {'solver': 'adam',  'learning_rate': 'constant'},
-              # {'solver': 'adam',  'learning_rate': 'invscaling'},
-              # {'solver': 'adam',  'learning_rate': 'adaptive'},
+    est_type = "video2aco"
+
+    params = [{"solver": "lbfgs", "learning_rate": "constant"},
+              # {"solver": "lbfgs", "learning_rate": "invscaling"},
+              # {"solver": "lbfgs", "learning_rate": "adaptive"},
+              # {"solver": "sgd",   "learning_rate": "constant"},
+              # {"solver": "sgd",   "learning_rate": "invscaling"},
+              # {"solver": "sgd",   "learning_rate": "adaptive"},
+              # {"solver": "adam",  "learning_rate": "constant"},
+              # {"solver": "adam",  "learning_rate": "invscaling"},
+              # {"solver": "adam",  "learning_rate": "adaptive"},
               ]
 
     labels = ["lbfgs with constant learning-rate",
@@ -137,8 +145,8 @@ def main():
 
             print("%s and %s" % (video_feat_type, aco_feat_type))
 
-            dir_x = '../src_data/train_features/OMV200_npy_shot_' + video_feat_type + '/'
-            dir_y = '../src_data/train_features/OMV200_npy_shot_' + aco_feat_type + '/'
+            dir_x = "../src_data/train_features/OMV200_npy_shot_" + video_feat_type + "/"
+            dir_y = "../src_data/train_features/OMV200_npy_shot_" + aco_feat_type + "/"
 
             video_features = load_file(from_dir=dir_x)
             aco_features = load_file(from_dir=dir_y)
@@ -147,21 +155,27 @@ def main():
             video_feat_norm = standardize_normalize_array(video_features, video_feat_type)
             aco_feat_norm = standardize_normalize_array(aco_features, aco_feat_type)
 
-            X = video_feat_norm
-            Y = aco_feat_norm
+            X = np.array([])
+            Y = np.array([])
+            if est_type == "video2aco":
+                X = video_feat_norm
+                Y = aco_feat_norm
+            elif est_type == "aco2video":
+                X = aco_feat_norm
+                Y = video_feat_norm
 
             print(X.shape)
             print(Y.shape)
 
             # for each dataset, plot learning for each learning strategy
             mlps = []
-            max_iter = 5000
+            max_iter = 10000
             score_loss_table = np.array([[""], ["Training set score"], ["Training set less"]])
 
             for label, param in zip(labels, params):
 
                 print("training: %s" % label)
-                mlp = MLPRegressor(activation='relu', hidden_layer_sizes=(230, 120, 120, 30), max_iter=max_iter, **param, random_state=1)
+                mlp = MLPRegressor(activation="relu", hidden_layer_sizes=230, max_iter=max_iter, **param, random_state=1)
                 mlp.fit(X, Y)
                 mlps.append(mlp)
                 print("Training set score: %f" % mlp.score(X, Y))
@@ -171,14 +185,25 @@ def main():
                 tmp_score_loss_table = np.array([[label], [str(mlp.score(X, Y))], [str(mlp.loss_)]])
                 score_loss_table = np.concatenate([score_loss_table, tmp_score_loss_table], axis=1)
 
-                joblib.dump(mlp, './output/output_model/mlp_maxiter=' + str(max_iter) + param['solver'] + '_' + param['learning_rate']
-                            + '_230_120_120_30_OMV200_shot_' + video_feat_type + '_' + aco_feat_type + '.pkl')
+                if est_type == "video2aco":
+                    joblib.dump(mlp, "./output/output_model/mlp_maxiter=" + str(max_iter) + "_" + param["solver"] + "_" + param["learning_rate"]
+                                + "_230_OMV200_shot_" + video_feat_type + "_2_" + aco_feat_type + ".pkl")
+                elif est_type == "aco2video":
+                    joblib.dump(mlp, "./output/output_model/mlp_maxiter=" + str(max_iter) + "_" + param["solver"] + "_" + param["learning_rate"]
+                                + "_230_OMV200_shot_" + aco_feat_type + "_2_" + video_feat_type + ".pkl")
 
-            table_name = './output/score_and_loss/OMV200_230_120_30_score_and_loss_maxiter=' + str(max_iter) + "_" + video_feat_type + '_' + aco_feat_type + '.csv'
-            with open(table_name, 'w') as f:
-                writer = csv.writer(f, lineterminator='\n')
+            table_name = ""
+            if est_type == "video2aco":
+                table_name = "./output/score_and_loss/OMV200_230_score_and_loss_maxiter=" \
+                             + str(max_iter) + "_" + video_feat_type + "_2_" + aco_feat_type + ".csv"
+            elif est_type == "aco2video":
+                table_name = "./output/score_and_loss/OMV200_230_score_and_loss_maxiter=" \
+                             + str(max_iter) + "_" + video_feat_type + "_2_" + aco_feat_type + ".csv"
+
+            with open(table_name, "w") as f:
+                writer = csv.writer(f, lineterminator="\n")
                 writer.writerows(score_loss_table)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

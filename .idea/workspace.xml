@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="073f0a3f-5e29-46ed-8262-382ed085a79f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add_histogram_and_convert_frame2shot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/convert_frame2shot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/save_mean_std_max_min.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/show_estimated_color_features.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_histogram_and_convert_frame2shot.py" afterPath="$PROJECT_DIR$/add_histogram_and_convert_frame2shot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_frame2shot.py" afterPath="$PROJECT_DIR$/convert_frame2shot.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recommend_music.py" afterPath="$PROJECT_DIR$/recommend_music.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/save_mean_std_max_min.py" afterPath="$PROJECT_DIR$/save_mean_std_max_min.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/show_estimated_color_features.py" afterPath="$PROJECT_DIR$/show_estimated_color_features.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train_mlp.py" afterPath="$PROJECT_DIR$/train_mlp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train_svr.py" afterPath="$PROJECT_DIR$/train_svr.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils_inoue.py" afterPath="$PROJECT_DIR$/utils_inoue.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="train_mlp.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="train_mlp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_mlp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="157" column="27" lean-forward="false" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
+            <state relative-caret-position="2880">
+              <caret line="188" column="98" lean-forward="false" selection-start-line="188" selection-start-column="98" selection-end-line="188" selection-end-column="98" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -36,8 +35,8 @@
       <file leaf-file-name="utils_inoue.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils_inoue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="2896">
+              <caret line="186" column="90" lean-forward="false" selection-start-line="186" selection-start-column="90" selection-end-line="186" selection-end-column="90" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -48,8 +47,8 @@
       <file leaf-file-name="convert_frame2shot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/convert_frame2shot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2544">
-              <caret line="159" column="37" lean-forward="false" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
+            <state relative-caret-position="368">
+              <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -60,8 +59,8 @@
       <file leaf-file-name="save_mean_std_max_min.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/save_mean_std_max_min.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="79" column="87" lean-forward="false" selection-start-line="79" selection-start-column="87" selection-end-line="79" selection-end-column="87" />
+            <state relative-caret-position="1232">
+              <caret line="79" column="90" lean-forward="false" selection-start-line="79" selection-start-column="90" selection-end-line="79" selection-end-column="90" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -72,8 +71,8 @@
       <file leaf-file-name="add_histogram_and_convert_frame2shot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add_histogram_and_convert_frame2shot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="1968">
+              <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -81,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recommend_music.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="recommend_music.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recommend_music.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="196" column="52" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="225" selection-end-column="39" />
+            <state relative-caret-position="1663">
+              <caret line="187" column="46" lean-forward="false" selection-start-line="187" selection-start-column="46" selection-end-line="187" selection-end-column="46" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -96,8 +95,8 @@
       <file leaf-file-name="show_estimated_color_features.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/show_estimated_color_features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3024">
-              <caret line="225" column="39" lean-forward="false" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
+            <state relative-caret-position="1216">
+              <caret line="84" column="49" lean-forward="false" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -108,7 +107,7 @@
       <file leaf-file-name="show_loss_graph.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/show_loss_graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
+            <state relative-caret-position="1056">
               <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
               <folding>
                 <element signature="e#112#143#0" expanded="true" />
@@ -128,9 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>test_X</find>
-      <find>aco_features</find>
-      <find>video_features</find>
       <find>fc7</find>
       <find>video_feat_norm</find>
       <find>split_posi</find>
@@ -158,6 +154,9 @@
       <find>is_first_convert</find>
       <find>to_dirs</find>
       <find>..</find>
+      <find>OMV62of5</find>
+      <find>IMV133</find>
+      <find>'</find>
     </findStrings>
     <replaceStrings>
       <replace>x_test</replace>
@@ -184,6 +183,9 @@
       <replace>prev_row_index</replace>
       <replace>/</replace>
       <replace>$PROJECT_DIR$/..</replace>
+      <replace>OMV62of5</replace>
+      <replace>OMV62of65</replace>
+      <replace>&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -203,13 +205,14 @@
         <option value="$PROJECT_DIR$/show_loss_graph.py" />
         <option value="$PROJECT_DIR$/train_svr.py" />
         <option value="C:/python_projects/shot_detection/shot_detection.py" />
-        <option value="$PROJECT_DIR$/recommend_music.py" />
-        <option value="$PROJECT_DIR$/add_histogram_and_convert_frame2shot.py" />
-        <option value="$PROJECT_DIR$/convert_frame2shot.py" />
-        <option value="$PROJECT_DIR$/utils_inoue.py" />
         <option value="$PROJECT_DIR$/show_estimated_color_features.py" />
+        <option value="$PROJECT_DIR$/../extract_acoustic_features_python/main.py" />
         <option value="$PROJECT_DIR$/save_mean_std_max_min.py" />
+        <option value="$PROJECT_DIR$/add_histogram_and_convert_frame2shot.py" />
         <option value="$PROJECT_DIR$/train_mlp.py" />
+        <option value="$PROJECT_DIR$/utils_inoue.py" />
+        <option value="$PROJECT_DIR$/convert_frame2shot.py" />
+        <option value="$PROJECT_DIR$/recommend_music.py" />
       </list>
     </option>
   </component>
@@ -235,7 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,12 +249,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../segment_music" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../extract_acoustic_features_python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -266,24 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train_mlp">
-    <configuration name="add_histogram_and_convert_frame2shot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="svr" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add_histogram_and_convert_frame2shot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.recommend_music">
     <configuration name="convert_frame2shot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,6 +283,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="svr" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convert_frame2shot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="recommend_music" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="svr" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommend_music.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -356,16 +359,16 @@
       <item index="0" class="java.lang.String" itemvalue="Python.utils_inoue" />
       <item index="1" class="java.lang.String" itemvalue="Python.train_mlp" />
       <item index="2" class="java.lang.String" itemvalue="Python.convert_frame2shot" />
-      <item index="3" class="java.lang.String" itemvalue="Python.add_histogram_and_convert_frame2shot" />
-      <item index="4" class="java.lang.String" itemvalue="Python.save_mean_std_max_min" />
+      <item index="3" class="java.lang.String" itemvalue="Python.save_mean_std_max_min" />
+      <item index="4" class="java.lang.String" itemvalue="Python.recommend_music" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.train_mlp" />
-        <item index="1" class="java.lang.String" itemvalue="Python.save_mean_std_max_min" />
-        <item index="2" class="java.lang.String" itemvalue="Python.convert_frame2shot" />
-        <item index="3" class="java.lang.String" itemvalue="Python.utils_inoue" />
-        <item index="4" class="java.lang.String" itemvalue="Python.add_histogram_and_convert_frame2shot" />
+        <item index="0" class="java.lang.String" itemvalue="Python.recommend_music" />
+        <item index="1" class="java.lang.String" itemvalue="Python.convert_frame2shot" />
+        <item index="2" class="java.lang.String" itemvalue="Python.utils_inoue" />
+        <item index="3" class="java.lang.String" itemvalue="Python.train_mlp" />
+        <item index="4" class="java.lang.String" itemvalue="Python.save_mean_std_max_min" />
       </list>
     </recent_temporary>
   </component>
@@ -395,16 +398,16 @@
     <frame x="58" y="-8" width="1870" height="1216" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1762431" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18287292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2212963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27407408" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37222221" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34166667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24907407" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26621622" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26574075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11387507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -440,7 +443,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -625,33 +628,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../extract_color_themes_python/main.py" />
     <entry file="file://$PROJECT_DIR$/../old_extract_color_themes_python/main.py" />
-    <entry file="file://$PROJECT_DIR$/show_loss_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-          <folding>
-            <element signature="e#112#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../extract_acoustic_features_python/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/tensorflow-vgg-master/extract_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-379">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/tensorflow-vgg-master/extract_features.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -663,44 +640,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/convert_frame2shot.py">
+    <entry file="file://$PROJECT_DIR$/../extract_acoustic_features_python/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2544">
-          <caret line="159" column="37" lean-forward="false" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils_inoue.py">
+    <entry file="file://$PROJECT_DIR$/show_loss_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="1056">
+          <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommend_music.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="196" column="52" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="225" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#112#143#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/show_estimated_color_features.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3024">
-          <caret line="225" column="39" lean-forward="false" selection-start-line="225" selection-start-column="39" selection-end-line="225" selection-end-column="39" />
+        <state relative-caret-position="1216">
+          <caret line="84" column="49" lean-forward="false" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_mlp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="188" column="98" lean-forward="false" selection-start-line="188" selection-start-column="98" selection-end-line="188" selection-end-column="98" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -709,8 +682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/add_histogram_and_convert_frame2shot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="1968">
+          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -719,18 +692,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/save_mean_std_max_min.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="79" column="87" lean-forward="false" selection-start-line="79" selection-start-column="87" selection-end-line="79" selection-end-column="87" />
+        <state relative-caret-position="1232">
+          <caret line="79" column="90" lean-forward="false" selection-start-line="79" selection-start-column="90" selection-end-line="79" selection-end-column="90" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_mlp.py">
+    <entry file="file://$PROJECT_DIR$/utils_inoue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="157" column="27" lean-forward="false" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
+        <state relative-caret-position="2896">
+          <caret line="186" column="90" lean-forward="false" selection-start-line="186" selection-start-column="90" selection-end-line="186" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_frame2shot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommend_music.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1663">
+          <caret line="187" column="46" lean-forward="false" selection-start-line="187" selection-start-column="46" selection-end-line="187" selection-end-column="46" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

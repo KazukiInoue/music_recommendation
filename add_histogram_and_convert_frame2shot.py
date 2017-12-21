@@ -35,12 +35,12 @@ def calc_and_concatenate_features(src_array, max_arr, min_arr):
     return out_arr
 
 
-def add_histogram_and_convert_frame2shot_features_for_training(threshold):
+def for_training_add_histogram_and_convert_frame2shot_features(threshold):
 
-    feature_type = "46aco"
+    feature_type = "40aco"
 
-    root_shot_img_dirs = ["../src_data/shots_OMV200_threshold_themes/",  # timposiとの兼ね合いがあるので,必ず0番目の要素にOMV200の情報を入れること
-                          "../src_data/shots_IMV133_threshold_themes/"]
+    root_shot_img_dirs = ["../src_data/shots_OMV200_improved/",  # timposiとの兼ね合いがあるので,必ず0番目の要素にOMV200の情報を入れること
+                          "../src_data/shots_OMV62of65_improved/"]
 
     from_feat_dirs = ["", ""]
     to_dirs = ["", ""]
@@ -52,10 +52,10 @@ def add_histogram_and_convert_frame2shot_features_for_training(threshold):
     if feature_type == "46aco":
 
         from_feat_dirs = ["../src_data/train_features/OMV200_npy_frame_46aco/",
-                          "../src_data/train_features/IMV133_npy_frame_46aco/"]
+                          "../src_data/train_features/OMV62of65_npy_frame_46aco/"]
 
         to_dirs = ["../src_data/train_features/OMV200_npy_shot_322aco/",
-                   "../src_data/train_features/IMV133_npy_shot_322aco/"]
+                   "../src_data/train_features/OMV62of65_npy_shot_322aco/"]
 
         before_foot = "_frame_46aco.npy"
         after_foot = "_shot_322aco.npy"
@@ -65,15 +65,17 @@ def add_histogram_and_convert_frame2shot_features_for_training(threshold):
     elif feature_type == "40aco":
 
         from_feat_dirs = ["../src_data/train_features/OMV200_npy_frame_40aco/",
-                          "../src_data/train_features/IMV133_npy_frame_40aco/"]
+                          "../src_data/train_features/OMV62of65_npy_frame_40aco/"]
 
         to_dirs = ["../src_data/train_features/OMV200_npy_shot_280aco/",
-                   "../src_data/train_features/IMV133_npy_shot_280aco/"]
+                   "../src_data/train_features/OMV62of65_npy_shot_280aco/"]
 
         before_foot = "_frame_40aco.npy"
         after_foot = "_shot_280aco.npy"
         frame_length = 2048 / 44100
         frame_hop = 512 / 44100
+
+    print("最大値と最小値を計算中...")
 
     all_features = np.array([])
 
@@ -102,7 +104,7 @@ def add_histogram_and_convert_frame2shot_features_for_training(threshold):
             shot_features = np.array([])
 
             # videoXの各フレームを読み込む
-            if len(os.listdir(shot_img_dir)) > threshold:  # ショット検出できていない動画があるので、その動画は扱わない
+            if len(os.listdir(shot_img_dir)) > threshold:  # ショット数が少ない動画があるので、その動画は扱わない
 
                 prev_row_index = 0
                 now_row_index = 0
@@ -153,4 +155,5 @@ def add_histogram_and_convert_frame2shot_features_for_training(threshold):
 
 
 if __name__ == "__main__":
-    add_histogram_and_convert_frame2shot_features_for_training(10)
+
+    for_training_add_histogram_and_convert_frame2shot_features(threshold=10)

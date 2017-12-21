@@ -7,7 +7,7 @@ import numpy.matlib
 from sklearn.externals import joblib
 
 
-# np.array(['a','b','c'])->np.array([['abc']])
+# np.array(["a","b","c"])->np.array([["abc"]])
 def characters_into_one_element(characters, delimiter):
     tmp = delimiter.join(characters)
     tmp = np.array([tmp])
@@ -19,7 +19,7 @@ def characters_into_one_element(characters, delimiter):
 # 配列の標準化と正規化を行う
 def normalize_standardization_array(in_array, feature_name):
 
-    mean_std_max_min = np.load('./output/min_max_mean_std/shot_'+feature_name+'_62of65_mean_std_max_min.npy')
+    mean_std_max_min = np.load("./output/mean_std_max_min/shot_"+feature_name+"_mean_std_max_min.npy")
 
     if len(in_array.shape) == 2:
 
@@ -55,11 +55,11 @@ def normalize_standardization_array(in_array, feature_name):
 def for_beat_features_recommend_music():
 
     # 使用する特徴量の指定
-    video_feat_type = '80hsv'
-    aco_feat_type = '46aco'
+    video_feat_type = "80hsv"
+    aco_feat_type = "46aco"
 
     # 動画特徴量をインポート(2次元)
-    video_feat_dir = './data/recommendation_test/npy_shot_80hsv/'
+    video_feat_dir = "./data/recommendation_test/npy_shot_80hsv/"
     for video_feat_file in os.listdir(video_feat_dir):
 
         video_features = np.load(video_feat_dir + video_feat_file)
@@ -69,7 +69,7 @@ def for_beat_features_recommend_music():
         time_len = video_features.shape[0]
 
         # 音楽ファイルを動画ファイルの長さに合わせてインポート(3次元)
-        aco_dir = '../src_data/recommendation_test_features/npy_shot_46aco/'
+        aco_dir = "../src_data/recommendation_test_features/npy_shot_46aco/"
         aco_features = np.array([])
         for aco_index, aco_file in enumerate(os.listdir(aco_dir)):
             tmp_aco_features = np.load(aco_dir + aco_file)
@@ -86,7 +86,7 @@ def for_beat_features_recommend_music():
         aco_feat_norm = normalize_standardization_array(aco_features, aco_feat_type)
 
         # 学習したMLPモデルを用いて音響特徴量を推定
-        model_dir = './output/mlp_maxiter=_5000sgd_adaptive_shot_80hsv_46aco_230_120_30.pkl'
+        model_dir = "./output/mlp_maxiter=_5000sgd_adaptive_shot_80hsv_46aco_230_120_30.pkl"
         mlp = joblib.load(model_dir)
         est_aco_features = mlp.predict(video_feat_norm)
 
@@ -112,64 +112,60 @@ def for_beat_features_recommend_music():
         test_data = np.array(os.listdir(aco_dir))
 
         # csv保存
-        tmp_csv_name = video_feat_file.split('.npy')
-        csv_name = './output/recommendation_result/by_shot/by_4608hsv/4608hsv_'+tmp_csv_name[0]+'.csv'
-        np.savetxt(csv_name, test_data, delimiter=',')
-        with open(csv_name, 'w') as f:
-            writer = csv.writer(f, lineterminator='\n')
+        tmp_csv_name = video_feat_file.split(".npy")
+        csv_name = "./output/recommendation_result/by_shot/by_4608hsv/4608hsv_"+tmp_csv_name[0]+".csv"
+        np.savetxt(csv_name, test_data, delimiter=",")
+        with open(csv_name, "w") as f:
+            writer = csv.writer(f, lineterminator="\n")
             writer.writerows(list(test_data[distance_ranking]))
 
 
 def for_shot_features_recommend_music():
 
-    video_feat_type = '80hsv'
-    aco_feat_type = '46aco'
+    video_feat_type = "768hsv"
+    aco_feat_type = "40aco"
 
     # 動画特徴量をインポート(2次元)
-    video_feat_dir = '../src_data/recommendation_test_features/npy_shot_'+video_feat_type+'/'
+    video_feat_dir = "../src_data/recommendation_test_features/for_test_input_video_features/OMV62of65_npy_shot_"+video_feat_type+"/"
 
     ranking = np.array([])
-    best_worst = np.array([['tested video name', 'best5', 'worst5']])
+    best_worst = np.array([["tested video name", "best5", "worst5"]])
 
     for video_index, video_feat_file in enumerate(os.listdir(video_feat_dir)):
         print(video_feat_file, flush=True)
 
         video_features = np.load(video_feat_dir + video_feat_file)
         video_features = np.array(video_features)
+        print("videofeatures.shape ", video_features.shape)
 
         # 音楽ファイルを動画ファイルの長さに合わせてインポート(3次元)
-        aco_root_dir = '../src_data/recommendation_test_features/npy_shot_'+aco_feat_type+'/'
-        name_index = ''
-        if video_index + 1 < 10:
-            name_index = '0000' + str(video_index + 1)
-        elif video_index + 1 < 100:
-            name_index = '000' + str(video_index + 1)
+        aco_root_dir = "../src_data/recommendation_test_features/for_test_OMV62of65_npy_shot_"+aco_feat_type+"/"
 
-        aco_feat_dir = aco_root_dir + 'cut_by_test_video' + name_index + '/'  # = aco_root_dir + 'cut_by_test_video00012/'
+        tmp_target_video_name = video_feat_file.split("_")
+        target_video_name = tmp_target_video_name[1]
+
+        aco_feat_dir = aco_root_dir + "cut_by_OMV62of65_" + target_video_name + "/"  # = aco_root_dir + "cut_by_IMV133_video00012/"
         aco_features = np.array([])
 
         for aco_index, aco_file in enumerate(os.listdir(aco_feat_dir)):  # aco_file = test_music_00018_cut_by_test_video00012.npy
             tmp_aco_features = np.load(aco_feat_dir + aco_file)
 
-            # 極端に演奏時間が短い曲をはじく
-            if video_features.shape[0] == tmp_aco_features.shape[0]:
+            # 対象の動画よりも再生時間が短い曲をはじく
+            if video_features.shape[0] == tmp_aco_features.shape[0] and tmp_aco_features.ndim == 2:
 
                 tmp_aco_features = tmp_aco_features.reshape(1, tmp_aco_features.shape[0], tmp_aco_features.shape[1])
 
-                if aco_index == 0:
+                if aco_features.size == 0:
                     aco_features = tmp_aco_features
                 else:
                     aco_features = np.concatenate([aco_features, tmp_aco_features], axis=0)
 
         # 正規化
-
         video_feat_norm = normalize_standardization_array(video_features, video_feat_type)
         aco_feat_norm = normalize_standardization_array(aco_features, aco_feat_type)
 
-
         # 学習したMLPモデルを用いて音響特徴量を推定
-        activation = 'relu'
-        model_dir = './output/output_model/mlp_lbfgs_adaptive_shot_80hsv_46aco_230_120_30.pkl'
+        model_dir = "./output/output_model/mlp_maxiter=10000lbfgs_constant_230_OMV200_shot_" + video_feat_type + "_2_" + aco_feat_type + ".pkl"
         mlp = joblib.load(model_dir)
         est_aco_features = mlp.predict(video_feat_norm)
 
@@ -189,15 +185,15 @@ def for_shot_features_recommend_music():
                 distance = np.concatenate([distance, tmp_distance])
 
         # 距離が小さい順にソート
-        tmp_ranking = np.argsort(distance)
+        tmp_ranking = np.argsort(distance) + 1
         print(tmp_ranking[:5])
 
         # best5, worst5の保存
         tmp_best5 = tmp_ranking[:5].astype(np.str)
         tmp_worst5 = tmp_ranking[-5:].astype(np.str)
 
-        best5 = characters_into_one_element(tmp_best5, ' ')
-        worst5 = characters_into_one_element(tmp_worst5, ' ')
+        best5 = characters_into_one_element(tmp_best5, " ")
+        worst5 = characters_into_one_element(tmp_worst5, " ")
         tmp_best_worst = np.concatenate([np.array([[video_feat_file]]), best5, worst5], axis=1)
 
         best_worst = np.concatenate([best_worst, tmp_best_worst], axis=0)
@@ -206,21 +202,33 @@ def for_shot_features_recommend_music():
         tmp_ranking = tmp_ranking.reshape(len(tmp_ranking), 1)
         tmp_ranking = np.concatenate([np.array([[video_feat_file]]), tmp_ranking], axis=0)
 
-        if video_index == 0:
+        if ranking.size == 0:
             ranking = tmp_ranking
         else:
+            print("before_ranking", ranking.shape)
+            print("before_tmp", tmp_ranking.shape)
+
+            if ranking.shape[0] > tmp_ranking.shape[0]:
+                tmp_ones = np.ones([abs(ranking.shape[0] - tmp_ranking.shape[0]), tmp_ranking.shape[1]])
+                tmp_ones = -1 * tmp_ones
+                tmp_ranking = np.concatenate([tmp_ranking, tmp_ones], axis=0)
+            elif tmp_ranking.shape[0] > ranking.shape[0]:
+                tmp_ones = np.ones([abs(ranking.shape[0] - tmp_ranking.shape[0]), ranking.shape[1]])
+                tmp_ones = -1 * tmp_ones
+                ranking = np.concatenate([ranking, tmp_ones], axis=0)
+
             ranking = np.concatenate([ranking, tmp_ranking], axis=1)
 
-    ranking_name = './output/recommendation_result/by_shot/ranking_' + video_feat_type + '_' + aco_feat_type + '.csv'
-    with open(ranking_name, 'w') as f:
-        writer = csv.writer(f, lineterminator='\n')
+    ranking_name = "./output/recommendation_result/by_shot/ranking_" + video_feat_type + "_" + aco_feat_type + ".csv"
+    with open(ranking_name, "w") as f:
+        writer = csv.writer(f, lineterminator="\n")
         writer.writerows(ranking)
 
-    best_worst_name = './output/recommendation_result/by_shot/best5 and worst 5_' + video_feat_type + '_' + aco_feat_type + '.csv'
-    with open(best_worst_name, 'w') as f:
-        writer = csv.writer(f, lineterminator='\n')
+    best_worst_name = "./output/recommendation_result/by_shot/best5 and worst 5_" + video_feat_type + "_" + aco_feat_type + ".csv"
+    with open(best_worst_name, "w") as f:
+        writer = csv.writer(f, lineterminator="\n")
         writer.writerows(best_worst)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     for_shot_features_recommend_music()

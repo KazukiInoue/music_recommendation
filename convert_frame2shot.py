@@ -25,130 +25,141 @@ def calc_max_min_and_concatenate_features(src_array, output_feature_type):
 
 def for_test_convert_frame2shot_features(threshold):
 
+    input_feature_type = "40aco"
     output_feature_type = "mean_and_std"
 
-    root_shot_img_dir = 'C:/MUSIC_RECOMMENDATION/src_data/shots_IMV133_threshold_themes/'
+    root_shot_img_dir = 'C:/MUSIC_RECOMMENDATION/src_data/shots_OMV62of65_improved/'
 
-    from_feat_dirs = ["C:/MUSIC_RECOMMENDATION/src_data/train_features/IMV133_npy_frame_40aco/",
-                      "C:/MUSIC_RECOMMENDATION/src_data/train_features/IMV133_npy_frame_46aco/"]
+    from_feat_dirs = None
+    before_foot = None
+    frame_length = None
+    frame_hop = None
+    to_root_dir = None
+    after_foot = None
 
-    before_foot = ["_frame_40aco.npy",
-                   "_frame_46aco.npy"]
+    if input_feature_type == "46aco":
 
-    frame_length = [2048 / 44100,
-                    0.03]
+        from_feat_dirs = "../src_data/train_features/OMV62of65_npy_frame_46aco/"
 
-    frame_hop = [512 / 44100,
-                 0.01]
+        before_foot = "_frame_46aco.npy"
 
-    to_dirs = []
-    after_foot = []
+        frame_length = 0.03
+        frame_hop = 0.01
 
-    if output_feature_type == "mean_only":
-        to_dirs = ["C:/MUSIC_RECOMMENDATION/src_data/recommendation_test_features/for_test_IMV133_npy_shot_40aco/",
-                   "C:/MUSIC_RECOMMENDATION/src_data/recommendation_test_features/for_test_IMV133_npy_shot_46aco/"]
+        if output_feature_type == "mean_only":
+            to_root_dir = "../src_data/recommendation_test_features/for_test_OMV62of65_npy_shot_46aco/"
+            after_foot = "_shot_46aco.npy"
 
-        after_foot = ["_shot_40aco.npy",
-                      "_shot_46aco.npy"]
+        elif output_feature_type == "mean_and_std":
+            to_root_dir = "../src_data/recommendation_test_features/for_test_OMV62of65_npy_shot_92aco/"
+            after_foot = "_shot_92aco.npy"
 
-    elif output_feature_type == "mean_and_std":
-        to_dirs = ["C:/MUSIC_RECOMMENDATION/src_data/recommendation_test_features/for_test_IMV133_npy_shot_80aco/",
-                   "C:/MUSIC_RECOMMENDATION/src_data/recommendation_test_features/for_test_IMV133_npy_shot_92aco/"]
+    elif input_feature_type == "40aco":
 
-        after_foot = ["_shot_80aco.npy",
-                      "_shot_92aco.npy"]
+        from_feat_dirs = "../src_data/train_features/OMV62of65_npy_frame_40aco/"
 
-    for feat_type_itr in range(2):
+        before_foot = "_frame_40aco.npy"
 
-        # ショット検出されたフレームを読み込む
-        for video_index, video_folder in enumerate(os.listdir(root_shot_img_dir)):
+        frame_length = 2048 / 44100
+        frame_hop = 512 / 44100
 
-            shot_img_dir = root_shot_img_dir + video_folder
+        if output_feature_type == "mean_only":
+            to_root_dir = "../src_data/recommendation_test_features/for_test_OMV62of65_npy_shot_40aco/"
+            after_foot = "_shot_40aco.npy"
 
-            if len(os.listdir(shot_img_dir)) < threshold:  # ショット検出できていない動画があるので、その動画は扱わない
-                continue
-            else:
+        elif output_feature_type == "mean_and_std":
+            to_root_dir = "../src_data/recommendation_test_features/for_test_OMV62of65_npy_shot_80aco/"
+            after_foot = "_shot_80aco.npy"
 
-                to_dir = to_dirs[feat_type_itr] + "cut_by_" + video_folder + "/"
+    # ショット検出されたフレームを読み込む
+    for video_index, video_folder in enumerate(os.listdir(root_shot_img_dir)):
 
-                # ショット発生時間の取得
-                shot_time_posis = np.array([])
+        shot_img_dir = root_shot_img_dir + video_folder
 
-                for img_file in os.listdir(shot_img_dir):
-                    # ファイルの名前をもとに特徴量をまとめる
-                    tmp_shot_posi = img_file.split('_')  # ->[test,video00005,01906,63.596867.png]
-                    tmp_shot_posi = tmp_shot_posi[3].split('.png')  # -> [63.59687]
-                    tmp_shot_posi = np.array([float(tmp_shot_posi[0])])  # 63.59687
+        if len(os.listdir(shot_img_dir)) < threshold:  # ショット検出できていない動画があるので、その動画は扱わない
+            continue
+        else:
 
-                    if shot_time_posis.size == 0:
-                        shot_time_posis = tmp_shot_posi
+            to_dir = to_root_dir + "cut_by_" + video_folder + "/"
+
+            # ショット発生時間の取得
+            shot_time_posis = np.array([])
+
+            for img_file in os.listdir(shot_img_dir):
+                # ファイルの名前をもとに特徴量をまとめる
+                tmp_shot_posi = img_file.split('_')  # ->[test,video00005,01906,63.596867.png]
+                tmp_shot_posi = tmp_shot_posi[3].split('.png')  # -> [63.59687]
+                tmp_shot_posi = np.array([float(tmp_shot_posi[0])])  # 63.59687
+
+                if shot_time_posis.size == 0:
+                    shot_time_posis = tmp_shot_posi
+                else:
+                    shot_time_posis = np.concatenate([shot_time_posis, tmp_shot_posi])
+
+            # フレーム音響特徴量のnpyを読み込む
+            for frame_feat_file in os.listdir(from_feat_dirs):
+
+                frame_features = np.load(from_feat_dirs + frame_feat_file)
+
+                shot_features = np.array([])
+
+                # ショット発生時間を用いてフレーム特徴量を分割
+                now_row_index = 0
+                prev_row_index = 0
+                for shot_index, shot_time_posi in enumerate(shot_time_posis):
+
+                    frame_time_posi = frame_length
+
+                    if shot_index == 0:  # 最初のフレームに対しては計算しない
+                        continue
                     else:
-                        shot_time_posis = np.concatenate([shot_time_posis, tmp_shot_posi])
+                        while frame_time_posi <= shot_time_posi:
+                            now_row_index += 1
+                            frame_time_posi = now_row_index * frame_hop + frame_length
 
-                # フレーム音響特徴量のnpyを読み込む
-                for frame_feat_file in os.listdir(from_feat_dirs[feat_type_itr]):
-
-                    frame_features = np.load(from_feat_dirs[feat_type_itr] + frame_feat_file)
-
-                    shot_features = np.array([])
-
-                    # ショット発生時間を用いてフレーム特徴量を分割
-                    now_row_index = 0
-                    prev_row_index = 0
-                    for shot_index, shot_time_posi in enumerate(shot_time_posis):
-
-                        frame_time_posi = frame_length[feat_type_itr]
-
-                        if shot_index == 0:  # 最初のフレームに対しては計算しない
-                            continue
+                        if now_row_index >= frame_features.shape[0]:  # 音楽よりも動画の方が長い場合
+                            break
                         else:
-                            while frame_time_posi <= shot_time_posi:
-                                now_row_index += 1
-                                frame_time_posi = now_row_index * frame_hop[feat_type_itr] + frame_length[feat_type_itr]
 
-                            if now_row_index >= frame_features.shape[0]:  # 音楽よりも動画の方が長い場合
-                                break
+                            this_shot_features = frame_features[prev_row_index:now_row_index, :]
+                            tmp_shot_features = calc_max_min_and_concatenate_features(this_shot_features, output_feature_type)
+
+                            prev_row_index = now_row_index
+
+                            if shot_features.size == 0:
+                                shot_features = tmp_shot_features
                             else:
+                                shot_features = np.concatenate([shot_features, tmp_shot_features], axis=0)
 
-                                this_shot_features = frame_features[prev_row_index:now_row_index, :]
-                                tmp_shot_features = calc_max_min_and_concatenate_features(this_shot_features, output_feature_type)
+                # 最後のショットの情報をここで得る
+                # 動画よりも音楽のほうが長い場合は、最後のショットに残りすべてのフレーム音響特徴量を割り当てる
+                if now_row_index < frame_features.shape[0] and shot_features.shape[0] < len(shot_time_posis):
+                    this_shot_features = frame_features[now_row_index:, :]
+                    tmp_shot_features = calc_max_min_and_concatenate_features(this_shot_features, output_feature_type)
 
-                                prev_row_index = now_row_index
+                    shot_features = np.concatenate([shot_features, tmp_shot_features], axis=0)
 
-                                if shot_features.size == 0:
-                                    shot_features = tmp_shot_features
-                                else:
-                                    shot_features = np.concatenate([shot_features, tmp_shot_features], axis=0)
+                tmp_save_name = frame_feat_file.split(before_foot)
+                save_name = tmp_save_name[0]  # test_music_00123
 
-                    # 最後のショットの情報をここで得る
-                    # 動画よりも音楽のほうが長い場合は、最後のショットに残りすべてのフレーム音響特徴量を割り当てる
-                    if now_row_index < frame_features.shape[0] and shot_features.shape[0] < len(shot_time_posis):
-                        this_shot_features = frame_features[now_row_index:, :]
-                        tmp_shot_features = calc_max_min_and_concatenate_features(this_shot_features, output_feature_type)
+                npy_name = to_dir + save_name + after_foot
+                np.save(npy_name, shot_features)
 
-                        shot_features = np.concatenate([shot_features, tmp_shot_features], axis=0)
-
-                    tmp_save_name = frame_feat_file.split(before_foot[feat_type_itr])
-                    save_name = tmp_save_name[0]  # test_music_00123
-
-                    npy_name = to_dir + save_name + after_foot[feat_type_itr] + '.npy'
-                    np.save(npy_name, shot_features)
-
-                    print(video_index + 1, '曲目が終了')
-                    print(shot_features.shape)
+                print(video_index + 1, '曲目が終了')
+                print(shot_features.shape)
 
 
 def for_training_convert_frame2shot_features(threshold):
 
     input_feature_type = "40aco"
-    output_feature_type = "mean_only"
+    output_feature_type = "mean_only"  # mean_only or mean_and_std
 
     if output_feature_type != "mean_only" and output_feature_type != "mean_and_std":
         print("Error! Please specify 'mean_only' or 'mean_and_std' for output_feature_type.")
         exit(1)
 
-    root_shot_img_dirs = ["../src_data/shots_OMV200_threshold_themes/",  # timposiとの兼ね合いがあるので,必ず0番目の要素にOMV200の情報を入れること
-                          "../src_data/shots_IMV133_threshold_themes/"]
+    root_shot_img_dirs = ["../src_data/shots_OMV200_improved/",  # timposiとの兼ね合いがあるので,必ず0番目の要素にOMV200の情報を入れること
+                          "../src_data/shots_OMV62of65_improved/"]
 
     from_feat_dirs = ["", ""]
     to_dirs = ["", ""]
@@ -160,7 +171,7 @@ def for_training_convert_frame2shot_features(threshold):
     if input_feature_type == "46aco":
 
         from_feat_dirs = ["../src_data/train_features/OMV200_npy_frame_46aco/",
-                          "../src_data/train_features/IMV133_npy_frame_46aco/"]
+                          "../src_data/train_features/OMV62of65_npy_frame_46aco/"]
 
         before_foot = "_frame_46aco.npy"
 
@@ -169,18 +180,18 @@ def for_training_convert_frame2shot_features(threshold):
 
         if output_feature_type == "mean_only":
             to_dirs = ["../src_data/train_features/OMV200_npy_shot_46aco/",
-                       "../src_data/train_features/IMV133_npy_shot_46aco/"]
+                       "../src_data/train_features/OMV62of65_npy_shot_46aco/"]
 
         elif output_feature_type == "mean_and_std":
             to_dirs = ["../src_data/train_features/OMV200_npy_shot_92aco/",
-                       "../src_data/train_features/IMV133_npy_shot_92aco/"]
+                       "../src_data/train_features/OMV62of65_npy_shot_92aco/"]
 
             after_foot = "_shot_92aco.npy"
 
     elif input_feature_type == "40aco":
 
         from_feat_dirs = ["../src_data/train_features/OMV200_npy_frame_40aco/",
-                          "../src_data/train_features/IMV133_npy_frame_40aco/"]
+                          "../src_data/train_features/OMV62of65_npy_frame_40aco/"]
 
         before_foot = "_frame_40aco.npy"
 
@@ -188,14 +199,14 @@ def for_training_convert_frame2shot_features(threshold):
         frame_hop = 512 / 44100
 
         if output_feature_type == "mean_only":
-            to_dirs = ["../src_data/train_features/OMV200_npy_shot_40aco/",
-                       "../src_data/train_features/IMV133_npy_shot_40aco/"]
+            to_dirs = ["../src_data/train_features/OMV200_npy_shot_40aco_improved/",
+                       "../src_data/train_features/OMV62of65_npy_shot_40aco_improved/"]
 
             after_foot = "_shot_40aco.npy"
 
         elif output_feature_type == "mean_and_std":
             to_dirs = ["../src_data/train_features/OMV200_npy_shot_80aco/",
-                       "../src_data/train_features/IMV133_npy_shot_80aco/"]
+                       "../src_data/train_features/OMV62of65_npy_shot_80aco/"]
 
             after_foot = "_shot_80aco.npy"
 
@@ -264,5 +275,5 @@ def for_training_convert_frame2shot_features(threshold):
 
 if __name__ == "__main__":
 
-    for_training_convert_frame2shot_features(10)
-    # for_test_convert_frame2shot_features(10)
+    # for_training_convert_frame2shot_features(10)
+    for_test_convert_frame2shot_features(10)
